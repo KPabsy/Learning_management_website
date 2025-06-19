@@ -1,10 +1,129 @@
-<html>
-    <head>
-        <title>Learning Management System</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Combined Maths Classes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="#">Classes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-buttons">
+            <button class="outline">Student Portal</button>
+            <button class="primary">Sign-up</button>
+        </div>
+    </header>
 
-    <body>
-        <h1>Buriyge Site Ek<h1>
-    </body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="grid-bg"></div>
+        <div class="hero-content">
+            <p class="subtitle">අගාධ සුදුසිංහ</p>
+            <h1><span>Combind Maths</span></h1>
+            <h2><span class="red">A</span> සිහිනය සබැවක් කරගන්න</h2>
+            <p>Join today to change your future!</p>
+            <div class="hero-buttons">
+                <button class="primary">Student Portal</button>
+                <button class="outline">Contact</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="ticker">
+        <marquee>Limit, Differentiation, Integration වගේ කතා අලුත්ම විදිහට...</marquee>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-img">
+            <img src="teacher.jpg" alt="Teacher">
+        </div>
+        <div class="about-text">
+            <h2><span class="blue">මම</span> ගණිත යමක්...</h2>
+            <p>
+                අලුත්ම හැඳින්වීම, නිවැරදි මගපෙන්වීමක්, Combined Maths විෂයය සඳහා A සාමාර්ථයක් ලබා ගැනීම සඳහා මට විශාල දැනුමක් ඇත...
+            </p>
+            <a href="#" class="author">Ashan Sudusindha</a>
+            <br>
+            <button class="primary">Contact</button>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section class="classes">
+        <h2 class="blue">අපගේ පන්ති මාලාවක්</h2>
+        <p>ඔබත් අදම ලියාපදිංචි වී ඔබේ සාර්ථක අනාගතය සඳහා පියවරක් ගන්න...</p>
+        <div class="class-cards">
+            <div class="class-card">
+                <img src="class1.jpg" alt="Maths 2025 Theory">
+                <h3>Maths 2025 Theory</h3>
+                <p>දැනට පවතින: සම්පුර්ණ විෂයය</p>
+                <button class="primary">ලියාපදිංචි වන්න</button>
+                <button class="outline">Details</button>
+            </div>
+            <div class="class-card">
+                <img src="class2.jpg" alt="Maths 2025 Theory">
+                <h3>Maths 2025 Theory</h3>
+                <p>දැනට පවතින: සම්පුර්ණ විෂයය</p>
+                <button class="primary">ලියාපදිංචි වන්න</button>
+                <button class="outline">Details</button>
+            </div>
+            <div class="class-card">
+                <img src="class3.jpg" alt="Maths 2025 Theory">
+                <h3>Maths 2025 Theory</h3>
+                <p>දැනට පවතින: සම්පුර්ණ විෂයය</p>
+                <button class="primary">ලියාපදිංචි වන්න</button>
+                <button class="outline">Details</button>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>අපව සම්බන්ධ කර ගන්න</h2>
+            <p><strong>Address:</strong> Sudusingha, Hakmana Road, Mathara</p>
+            <p><strong>Phone:</strong> 0705801448</p>
+            <p><strong>Email:</strong> ashansudusingha@gmail.com</p>
+            <div class="socials">
+                <a href="#"><img src="fb-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="yt-icon.png" alt="YouTube"></a>
+                <a href="#"><img src="insta-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            </div>
+        </div>
+        <form class="contact-form">
+            <h2>Send us a message</h2>
+            <div class="form-row">
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your message here..." required></textarea>
+            <button type="submit" class="primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <a href="#">Classes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Student Portal</a>
+        </nav>
+        <p>&copy; 2025 Ashan Sudusindha</p>
+    </footer>
+</body>
 </html>
